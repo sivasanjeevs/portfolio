@@ -96,6 +96,7 @@
 }
 body{
     background-image: url("html\ 3d1.png");
+    background-repeat: -y;
     }
 .contact{
     position: absolute;
