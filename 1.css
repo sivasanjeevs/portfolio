@@ -121,6 +121,7 @@ html{
     background-repeat:no-repeat
 }
 .c{
+   /* padding-bottom: 50px;*/
     background-color: black;
     background-image: url("html3d2.png");
     background-size:cover;
@@ -129,6 +130,9 @@ html{
 }
 .d{
     padding-top: 200px;
+    align-items: center;
+    padding-left: 575px;
+    padding-bottom: 200px;
     background-color: black;
     background-image: url("html\ 3d1.png");
     background-size:cover;
