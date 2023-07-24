@@ -140,6 +140,7 @@ html{
     background-image: url("html\ 3d1.png");
     background-size:cover;
     background-repeat:no-repeat;
+    left: 100px;
 }
 .c-content{
     position:relative;
