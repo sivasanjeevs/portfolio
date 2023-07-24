@@ -190,7 +190,7 @@ html{
     text-decoration: none;
     z-index: 1;
     overflow:hidden;
-    left: 80px;
+    left: 50px;
     transition: .5s;
 }
 .c-content h4::before{
