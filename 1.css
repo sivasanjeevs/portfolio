@@ -5,6 +5,44 @@
     padding-left:50px;
     padding-right: 50px;
 }
+/*
+.title-word {
+    animation: color-animation 2s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #fa5c08;
+    --color-2: #07b0f8;
+    --color-3: #710604;
+  }
+  
+  .title-word-2 {
+    --color-1: #926d1d;
+    --color-2: #07503e;
+    --color-3: #06becb;
+  }
+  
+  .title-word-3 {
+    --color-1: #06201d;
+    --color-2: #dc6462;
+    --color-3: #07fcdf;
+  }
+  
+  .title-word-4 {
+    --color-1: #03b2fd;
+    --color-2: #6f2b06;
+    --color-3: #fa0703;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }*/
 html{
     scroll-behavior: smooth;
     background-image: url("simple-blue-black-wallpaper-e29da4-4k-hd-desktop-wallpaper-for-4k-5.jpg");
@@ -12,9 +50,9 @@ html{
     background-repeat:no-repeat;
 }
 .a-content h1{
-    font-family: sans-serif;
-    font-size: 70px;
-    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 75px;
+    font-weight: 800;
     line-height: 2;
     color: white;
     transition: 1s;
@@ -40,8 +78,8 @@ html{
     animation-delay: 1.5s;
 }*/
 .a-content h4{
-    font-family: monospace;
-    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
     font-weight: 700;
     color: blueviolet;
     padding-bottom: 300px;
@@ -86,6 +124,7 @@ html{
     text-decoration: none;
     font-weight: 700;
 }
+/*
 .logo::before{
     content: '';
     position: absolute;
@@ -96,7 +135,7 @@ html{
     background: rgb(0, 0, 0);
     animation: showRight 2s ease forwards;
     animation-delay: .4s;
-}
+}*/
 .navbar a{
     font-size: 18px;
     color: rgb(249, 250, 251);
@@ -105,6 +144,7 @@ html{
     margin-left: 50px;
     transition: .3s;
 }
+/*
 .navbar a::before{
     content: '';
     position: absolute;
@@ -115,7 +155,7 @@ html{
     background: black;
     animation: showRight 2s ease forwards;
     animation-delay: 1.5s;
-}
+}*/
 .navbar a:hover{
     color: blueviolet;
     animation: mymove 1s;
@@ -139,6 +179,7 @@ html{
 .c{
     margin-top: 200px;
     border-radius: 75px;
+    border: 1px solid white;
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 200px;
@@ -156,6 +197,7 @@ position:relative;
 }*/
 .d{
     border-radius: 75px;
+    border: 1px solid white;
     padding-top: 100px;
     margin-top: 200px;
     margin-right:60px;
@@ -175,6 +217,7 @@ position:relative;
     padding-right: 150px;
     padding-bottom: 200px;
     font-family:monospace;
+    
     font-size: 25px;
     font-weight: 700;
     color: white;
