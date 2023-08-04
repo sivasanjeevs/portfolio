@@ -179,7 +179,7 @@ html{
 .c{
     margin-top: 200px;
     border-radius: 75px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 200px;
@@ -197,7 +197,7 @@ position:relative;
 }*/
 .d{
     border-radius: 75px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     padding-top: 100px;
     margin-top: 200px;
     margin-right:60px;
