@@ -5,7 +5,54 @@
     padding-left:50px;
     padding-right: 50px;
 }
-/*
+.circle:nth-child(1),
+.circle:nth-child(2),
+.circle:nth-child(3),
+.circle:nth-child(4),
+.circle:nth-child(5){
+    width: 30px;
+    height:30px;
+    margin-top: 75%;
+    background: rgb(234, 231, 231);
+    display: inline-flex;  
+    border-radius: 2em;
+    animation: popup 1s ease-in infinite;
+}
+.circle:nth-child(1){
+    background:blueviolet;
+    animation-delay: .15s;
+}
+.circle:nth-child(2){
+    background:blueviolet;
+    animation-delay: .25s;
+}
+.circle:nth-child(3){
+    background:blueviolet;
+    animation-delay: .50s;
+}
+.circle:nth-child(4){
+    background:blueviolet;
+    animation-delay: .75s;
+}
+.circle:nth-child(5){
+    background:blueviolet;
+    animation-delay: 1s;
+}
+.first{
+    text-align: center;
+    display: inline-flex;
+    margin-top: 0px;
+    padding-top:200px;
+    margin-left: 60px;
+    margin-right: 60px;
+    /*padding-left:50px;
+    padding-right: 50px;*/
+    font-family: monospace;
+    font-size: 75px;
+    font-weight: 800;
+    transition: 1s;
+}
+
 .title-word {
     animation: color-animation 2s linear infinite;
   }
@@ -42,7 +89,7 @@
     66%   {color: var(--color-3)}
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
-  }*/
+  }
 html{
     scroll-behavior: smooth;
     background-image: url("simple-blue-black-wallpaper-e29da4-4k-hd-desktop-wallpaper-for-4k-5.jpg");
@@ -164,6 +211,10 @@ html{
     background: transparent;
 }
 .a{
+    border-radius: 75px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 400px;
     background-image: url("html\ 3d1.png");
     background-size:cover;
     background-repeat:no-repeat;
@@ -216,8 +267,7 @@ position:relative;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 200px;
-    font-family:monospace;
-    
+    font-family:monospace; 
     font-size: 25px;
     font-weight: 700;
     color: white;
@@ -276,4 +326,15 @@ position:relative;
 }
 @keyframes mymove {
     0.5% {opacity: 0;}
+  }
+@keyframes popup{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: transulateY(0px);
+    }
   }
