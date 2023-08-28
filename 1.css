@@ -12,14 +12,14 @@
 .circle:nth-child(5){
     width: 30px;
     height:30px;
-    margin-top: 75%;
+    margin-top: 50px;
     background: rgb(234, 231, 231);
     display: inline-flex;  
     border-radius: 2em;
     animation: popup 1s ease-in infinite;
 }
 .circle:nth-child(1){
-    background:blueviolet;
+    background:rgb(255, 98, 1);
     animation-delay: .15s;
 }
 .circle:nth-child(2){
@@ -27,29 +27,28 @@
     animation-delay: .25s;
 }
 .circle:nth-child(3){
-    background:blueviolet;
+    background:rgb(246, 245, 247);
     animation-delay: .50s;
 }
 .circle:nth-child(4){
-    background:blueviolet;
+    background:rgb(234, 249, 34);
     animation-delay: .75s;
 }
 .circle:nth-child(5){
-    background:blueviolet;
+    background:rgb(156, 3, 85);
     animation-delay: 1s;
 }
 .first{
+    position:relative;
     text-align: center;
-    display: inline-flex;
     margin-top: 0px;
     padding-top:200px;
-    margin-left: 60px;
-    margin-right: 60px;
-    /*padding-left:50px;
-    padding-right: 50px;*/
+   /* margin-left: 50px;
+    margin-right: 50px;*/
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: monospace;
     font-size: 75px;
-    font-weight: 800;
     transition: 1s;
 }
 
@@ -214,7 +213,7 @@ html{
     border-radius: 75px;
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 400px;
+    margin-top: 300px;
     background-image: url("html\ 3d1.png");
     background-size:cover;
     background-repeat:no-repeat;
