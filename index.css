@@ -1,0 +1,353 @@
+html{
+    background-color: black;
+    scroll-behavior: smooth;
+    /*cursor: url("icons8-cursor-24.png"), auto;*/
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.b{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.vid{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.a{
+    background-color: #fff;
+}
+.b{
+    background-color: black;
+}
+.c{
+    
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.d{
+    background-color: black;
+}
+.d h1{
+    padding-top: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 250px;
+    padding-bottom: 15%;
+    font-weight:900;
+}
+.c h1{
+    display:flexbox;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+    text-align: center;
+    color:black;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight:900;
+}
+.photos{
+    margin-left: 25%;
+    filter: drop-shadow(rgb(186, 175, 175) 1rem 1rem 10px);
+    padding-bottom: 10%;
+    display: flex;
+    
+    gap: 1rem;
+    height: 500px;
+    width: 50%;
+}
+.photos > div{
+    flex: 1;
+    transition: all 1s;
+}
+.photos >div:nth-child(1){
+    background: url("WhatsApp\ Image\ 2024-05-29\ at\ 9.51.35\ AM.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.photos >div:nth-child(2){
+    background: url("WhatsApp\ Image\ 2024-05-29\ at\ 9.51.35\ AM\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.photos >div:nth-child(3){
+    background: url("WhatsApp\ Image\ 2024-05-29\ at\ 9.51.36\ AM.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.photos >div:hover{
+    flex: 6;
+}
+.b h1{
+    font-family: monospace;
+    display: flex;
+    color: #fff;
+}
+
+.a{
+    padding-top: 0%;
+    padding-bottom: 50%;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.front h1{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-size: 275px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    font-weight: 900;
+    mix-blend-mode: screen;
+
+}
+/*.a h1{
+    margin-top: 0%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 250px;
+    margin-bottom: 0%;
+    font-weight:900;
+   background-image: url("Capture.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+}*/
+.top{
+    
+    font-family: sans-serif;
+    position:fixed;
+    width: 100%;
+    padding: 20px;
+    display:flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    
+    font-size: 35px;
+    color: #808080;
+    font-weight:900;
+    text-decoration: none;
+    font-weight:700;
+}
+.navbar a{
+
+    font-size: 20px;
+    color: #808080;
+    text-decoration: none;
+    margin-top: 200px;
+    font-weight:700;
+    margin-left: 20px;
+    margin-right: 50px;
+    transition: .5s;
+}
+.navbar a:hover{
+    color: #000;
+    /*cursor: url("icons8-cursor-24.png"), auto;*/
+}
+.d{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-bottom: 100px;
+}
+.contact{
+    color: white;
+    display: flex;
+    justify-content:space-around;
+}
+.contact a{
+    display:flex;
+    height: 90px;
+    background: transparent;
+    border-radius: 100%;
+    font-size: 90px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow:hidden;
+    transition: .5s;
+}
+.contact a:hover{
+    color: black;
+  /*  cursor: url("icons8-cursor-24.png"), auto;*/
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin-right: 5%;
+    background-color: white;
+    border-radius: 50%;
+}
+img {
+    display: block;
+    filter: drop-shadow(black 1rem 1rem 10px);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    shape-outside: margin-box;
+    scale: .65;
+    transition: all 0.5s;
+}
+img:hover{
+    scale: 1;
+}
+.e{
+    font-family: monospace;
+    padding-bottom: 10%;
+    background-color: white;
+}
+.e h2{
+    padding-top: 1%;
+    margin-left: 20%;
+    padding-bottom: 1%;
+}
+.e h1{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+
+}
+.e p{
+    margin-left: 25%;
+
+}
+* {box-sizing:border-box}
+
+
+.container {
+    margin-left: 25%;
+  width: 50%;
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.C {width: 85%; background-color: #f4348e;}
+.oops {width: 85%; background-color: #46358b;}
+.py {width: 90%; background-color: #f6590a;}
+.R {width: 90%; background-color: #0ad3f6;}    
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 90%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.react {width: 50%; background-color: #808080;} 
+.oracle {width: 50%; background-color: #5024af;} 
+.sql {width: 50%; background-color: #1c8613;} 
+.mysql {width: 50%; background-color: #d17777;} 
+.ap {width: 90%; background-color: #92451f;}
+.ca {width: 90%; background-color: #8d1791;}
+.f{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+    background-color: #000;
+}
+.f h1{
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    padding-top: 25%;
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
