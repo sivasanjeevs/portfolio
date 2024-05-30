@@ -240,7 +240,6 @@ html{
 .e h2{
     font-family: monospace;
     padding-top: 4%;
-    margin-left: 20%;
     padding-bottom: 2%;
 }
 .e h1{
@@ -255,7 +254,7 @@ html{
 }
 .e p{
     font-family: monospace;
-    margin-left: 25%;
+
 
 }
 * {box-sizing:border-box}
@@ -289,6 +288,7 @@ html{
 .mysql {width: 50%; background-color: #d17777;} 
 .ap {width: 90%; background-color: #92451f;}
 .ca {width: 90%; background-color: #8d1791;}
+
 .f{
     padding-top: 15%;
     padding-bottom: 15%;
@@ -433,4 +433,18 @@ html{
     color: white;
     font-size: 80px;
     font-weight: 700;
+}
+
+#error-message {
+    display: none;
+    text-align: center;
+    color: red;
+}
+
+#content {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
