@@ -253,16 +253,15 @@ html{
 
 }
 .e p{
+    margin-right: 40%;
     font-family: monospace;
-
-
 }
 * {box-sizing:border-box}
 
 
 .container {
     
-    margin-left: 25%;
+  margin-left: 25%;
   width: 50%;
   background-color: #ddd; 
 }
