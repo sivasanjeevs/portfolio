@@ -39,14 +39,14 @@ html{
     justify-content: center;
 }
 .d{
-    background-color: black;
+    background-color: white;
 }
 .d h1{
     padding-top: 15%;
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: center;
-    font-family: sans-serif;
+    font-family: monospace;
     font-size: 250px;
     padding-bottom: 15%;
     font-weight:900;
@@ -153,7 +153,6 @@ html{
 }*/
 .top{
     
-    font-family: sans-serif;
     position:fixed;
     width: 100%;
     padding: 20px;
@@ -164,7 +163,7 @@ html{
     z-index: 100;
 }
 .logo{
-    
+    font-family: monospace;
     font-size: 35px;
     color: #808080;
     font-weight:900;
@@ -172,7 +171,7 @@ html{
     font-weight:700;
 }
 .navbar a{
-
+    font-family: monospace;
     font-size: 20px;
     color: #808080;
     text-decoration: none;
@@ -193,7 +192,7 @@ html{
     padding-bottom: 100px;
 }
 .contact{
-    color: white;
+    color: black;
     display: flex;
     justify-content:space-around;
 }
@@ -203,14 +202,14 @@ html{
     background: transparent;
     border-radius: 100%;
     font-size: 90px;
-    color: white;
+    color: black;
     text-decoration: none;
     z-index: 1;
     overflow:hidden;
     transition: .5s;
 }
 .contact a:hover{
-    color: black;
+    color: blueviolet;
   /*  cursor: url("icons8-cursor-24.png"), auto;*/
 }
 .box{
@@ -220,7 +219,7 @@ html{
     background-color: white;
     border-radius: 50%;
 }
-img {
+.i{
     display: block;
     filter: drop-shadow(black 1rem 1rem 10px);
     height: 100%;
@@ -230,7 +229,7 @@ img {
     scale: .65;
     transition: all 0.5s;
 }
-img:hover{
+.i:hover{
     scale: 1;
 }
 .e{
@@ -239,9 +238,10 @@ img:hover{
     background-color: white;
 }
 .e h2{
-    padding-top: 1%;
+    font-family: monospace;
+    padding-top: 4%;
     margin-left: 20%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 .e h1{
     padding-top: 5%;
@@ -254,6 +254,7 @@ img:hover{
 
 }
 .e p{
+    font-family: monospace;
     margin-left: 25%;
 
 }
@@ -261,12 +262,14 @@ img:hover{
 
 
 .container {
+    
     margin-left: 25%;
   width: 50%;
   background-color: #ddd; 
 }
 
 .skills {
+    font-family: monospace;
   text-align: right; 
   padding-top: 10px; 
   padding-bottom: 10px; 
@@ -291,8 +294,10 @@ img:hover{
     padding-bottom: 15%;
     color: white;
     background-color: #000;
+    font-family: monospace;
 }
 .f h1{
+    font-family: monospace;
     padding-bottom: 5%;
     text-align: center;
 }
@@ -311,6 +316,7 @@ img:hover{
     position: relative;
     width: 100%;
     height: 100%;
+    font-family: monospace;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -350,4 +356,81 @@ img:hover{
     padding-bottom: 5%;
     margin-left: 3%;
     margin-right: 3%;
+}
+.i1{
+    display:inline-flex;
+    width: 17%;
+    height: 17%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+    transform: scale(1);
+    animation: a 1s infinite alternate;
+    /*scale: 1;
+    transition: all 0.5s;*/
+}
+/*.i1:hover{
+    scale: 1.5;
+}*/
+.i2{
+    width: 17%;
+    height: 17%;
+    padding-right: 5%;
+    margin-bottom: 15%;
+    transform: scale(1);
+    animation: a 1s infinite alternate;
+   /* scale: 1;
+    transition: all 0.5s;*/
+}
+/*.i2:hover{
+    scale: 1.5;
+}*/
+.i3{
+    width: 17%;
+    height: 17%;
+    margin-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
+    /*scale: 1;*/
+  /*  transition: all 0.5s;*/
+    transform: scale(1);
+    animation: a 1s infinite alternate;
+}
+@keyframes a {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/*.i3:hover{
+    scale: 1.5;
+}*/
+.i4{
+    display:flexbox;
+    margin-top: 0%;
+    width: 17%;
+    height: 17%;
+    padding-right: 5%;
+    margin-bottom: 10%;
+    transform: scale(1);
+    animation: a 1s infinite alternate;
+    /*scale: 1;
+    transition: all 0.5s;*/
+}
+/*.i4:hover{
+    scale: 1.5;
+}*/
+.g{
+    justify-content: space-between;
+}
+.g h1{
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
 }
