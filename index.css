@@ -19,27 +19,32 @@ html{
     justify-content: center;
     overflow: hidden;
 }
-.vid{
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
 .a{
-
+    z-index: 1;
     background-color: #fff;
 }
 .b{
+    z-index: 2;
     background-color: black;
 }
+.e{
+    z-index: 3;
+}
+.f{
+    z-index: 4;
+}
 .c{
-    
+    z-index: 5;
     background-color: white;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
+.g{
+    z-index: 6;
+}
 .d{
+    z-index: 7;
     margin-top: 5%;
     background-color: white;
 }
@@ -312,7 +317,6 @@ html{
     background-color: transparent;
     width: 300px;
     height: 200px;
-    
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
