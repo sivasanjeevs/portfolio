@@ -315,7 +315,7 @@ html{
 }
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 200px;
     height: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -363,8 +363,8 @@ html{
     display: flex;
     justify-content: space-between;
     padding-bottom: 5%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .i1{
     display:inline-flex;
