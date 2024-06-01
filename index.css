@@ -225,6 +225,9 @@ html{
     margin-right: 5%;
     background-color: white;
     border-radius: 50%;
+    /*transform: scale(1);
+    animation: b 1s infinite alternate;*/
+    
 }
 .i{
     display: block;
@@ -248,6 +251,7 @@ html{
     font-family: monospace;
     padding-top: 4%;
     padding-bottom: 2%;
+    font-size: 15px;
 }
 .e h1{
     padding-top: 5%;
@@ -262,6 +266,7 @@ html{
 .e p{
     margin-left: 25%;
     text-align: left;
+    font-size: 10px;
     font-family: monospace;
 }
 * {box-sizing:border-box}
@@ -282,32 +287,34 @@ html{
   color: white; 
 }
 
-.C {width: 85%; background-color: #f4348e;}
-.oops {width: 85%; background-color: #46358b;}
-.py {width: 90%; background-color: #f6590a;}
-.R {width: 90%; background-color: #0ad3f6;}    
-.html {width: 90%; background-color: #04AA6D;} 
-.css {width: 90%; background-color: #2196F3;} 
-.js {width: 65%; background-color: #f44336;} 
-.react {width: 50%; background-color: #808080;} 
-.oracle {width: 50%; background-color: #5024af;} 
-.sql {width: 50%; background-color: #1c8613;} 
-.mysql {width: 50%; background-color: #d17777;} 
-.ap {width: 90%; background-color: #92451f;}
-.ca {width: 90%; background-color: #8d1791;}
+.C {width: 85%; background-color: #240750;}
+.oops {width: 85%; background-color: #344C64;}
+.py {width: 90%; background-color: #577B8D;}
+.R {width: 90%; background-color: #57A6A1;}    
+.html {width: 90%; background-color: #10439F;} 
+.css {width: 90%; background-color: #874CCC;} 
+.js {width: 65%; background-color: #C65BCF;} 
+.react {width: 50%; background-color: #F27BBD;} 
+.oracle {width: 50%; background-color: #49243E;} 
+.sql {width: 50%; background-color: #704264;} 
+.mysql {width: 50%; background-color: #BB8493;} 
+.ap {width: 90%; background-color: #03AED2;}
+.ca {width: 90%; background-color: #68D2E8;}
 
 .f{
     padding-top: 15%;
     padding-bottom: 15%;
     color: white;
-    background-color: #000;
+    background-color:#040D12;
     font-family: monospace;
+    
 }
 .f h1{
     font-family: monospace;
     padding-bottom: 5%;
     font-size: 20px;
     text-align: center;
+    color: white;
 }
 .f p{
     font-family: monospace;
@@ -348,13 +355,13 @@ html{
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     padding-top: 25%;
-    background-color: #bbb;
+    background-color: #183D3D;
     color: black;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #5C8374;
     color: white;
     transform: rotateY(180deg);
   }
@@ -456,4 +463,42 @@ html{
 
 .hidden {
     display: none;
+}
+.boxes1{
+    width: 150px;
+    height: 150px;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    background-color: white;
+    transform: scale(1);
+    animation: b 1s infinite alternate;
+}
+@keyframes b {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.boxes2{
+    width: 75px;
+    height: 75px;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: b 1s infinite alternate;
+}
+.boxes3{
+    width: 75px;
+    height: 75px;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: b 1s infinite alternate;
 }
