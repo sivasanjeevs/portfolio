@@ -10,19 +10,16 @@ html{
     font-family: sans-serif;
 }
 .b{
-    position: relative;
+    margin-top: 0%;
     padding-top: 12%;
     padding-bottom: 12%;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    overflow: hidden;
+    
 }
-.a{
-    z-index: 1;
-    background-color: #fff;
-}
+
 .b{
     z-index: 2;
     background-color: black;
@@ -109,12 +106,13 @@ html{
 }
 
 .a{
-    padding-top: 0%;
-    padding-bottom: 50%;
+    padding: 0%;
+    z-index: 1;
+    background-color: #fff;
 }
 .front{
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -133,8 +131,8 @@ html{
     position: absolute;
     top: 0;
     left:0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background: #fff;
     font-size: 200px;
     text-align: center;
@@ -222,7 +220,7 @@ html{
 .box{
     width: 400px;
     height: 400px;
-    margin-right: 5%;
+    margin-right: 2%;
     background-color: white;
     border-radius: 50%;
     /*transform: scale(1);
@@ -230,7 +228,7 @@ html{
     
 }
 .i{
-    display: block;
+
     filter: drop-shadow(black 1rem 1rem 10px);
     height: 100%;
     width: 100%;
@@ -468,7 +466,7 @@ html{
 .boxes1{
     width: 150px;
     height: 150px;
-    margin-right: 5%;
+    margin-right: 2%;
     margin-bottom: 20%;
     border-radius: 50%;
     background-color: white;
@@ -486,7 +484,7 @@ html{
 .boxes2{
     width: 75px;
     height: 75px;
-    margin-right: 5%;
+    margin-right: 2%;
     background-color: white;
     margin-top: 10%;
     border-radius: 50%;
@@ -496,7 +494,7 @@ html{
 .boxes3{
     width: 75px;
     height: 75px;
-    margin-right: 5%;
+    margin-right: 2%;
     background-color: white;
     margin-top: 15%;
     border-radius: 50%;
