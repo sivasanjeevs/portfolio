@@ -295,11 +295,12 @@ html{
 .css {width: 90%; background-color: #874CCC;} 
 .js {width: 65%; background-color: #C65BCF;} 
 .react {width: 50%; background-color: #F27BBD;} 
-.oracle {width: 50%; background-color: #49243E;} 
+.oracle {width: 60%; background-color: #49243E;} 
 .sql {width: 50%; background-color: #704264;} 
 .mysql {width: 50%; background-color: #BB8493;} 
 .ap {width: 90%; background-color: #03AED2;}
-.ca {width: 90%; background-color: #68D2E8;}
+.ca {width: 95%; background-color: #68D2E8;}
+.fi {width: 65%; background-color: #54c9e0;}
 
 .f{
     padding-top: 15%;
