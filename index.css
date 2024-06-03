@@ -22,7 +22,7 @@ html{
 
 .b{
     z-index: 2;
-    background-color: black;
+    background-color: black
 }
 .e{
     z-index: 3;
@@ -32,7 +32,15 @@ html{
 }
 .c{
     z-index: 5;
-    background-color: white;
+    background-image: linear-gradient(
+        -20deg,
+      
+        black 40%,
+        #605b6e 35%,
+        #242426 55%,
+        black 55%,
+        black 80%
+        );
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -62,14 +70,14 @@ html{
     padding-bottom: 5%;
     margin-bottom: 0%;
     text-align: center;
-    color:black;
-    font-family: monospace;
+    color:white;
+    font-family: sans-serif;
     font-size: 30px;
     font-weight:900;
 }
 .photos{
     margin-left: 25%;
-    filter: drop-shadow(rgb(186, 175, 175) 1rem 1rem 10px);
+  /*  filter: drop-shadow(rgb(186, 175, 175) 1rem 1rem 10px);*/
     padding-bottom: 10%;
     display: flex;
     
@@ -221,7 +229,8 @@ html{
     width: 400px;
     height: 400px;
     margin-right: 1.5%;
-    background-color: white;
+    background: rgb(236,194,212);
+    background: radial-gradient(circle, rgba(236,194,212,1) 19%, rgba(25,25,28,1) 81%);
     border-radius: 50%;
     /*transform: scale(1);
     animation: b 1s infinite alternate;*/
@@ -238,27 +247,36 @@ html{
     transition: all 0.5s;
 }
 .i:hover{
-    scale: 1;
+    scale: 0.85;
 }
 .e{
     font-family: monospace;
     padding-bottom: 10%;
-    background-color: white;
+    background-image: linear-gradient(
+  35deg,
+
+  black 40%,
+  #605b6e 40%,
+  #242426 50%,
+  black 50%,
+  black 80%
+  );
 }
 .e h2{
     font-family: monospace;
     padding-top: 4%;
     padding-bottom: 2%;
     font-size: 15px;
+    color: white;
 }
 .e h1{
     padding-top: 5%;
     padding-bottom: 3%;
     font-size: 30px;
-    font-family: monospace;
+    font-family: sans-serif;
     text-align: center;
-    color: black;
-    font-weight: 900;
+    color: white;
+    font-weight: 800;
 
 }
 .e p{
@@ -266,6 +284,7 @@ html{
     text-align: left;
     font-size: 10px;
     font-family: monospace;
+    color: white;
 }
 * {box-sizing:border-box}
 
@@ -274,7 +293,7 @@ html{
     
     margin-left: 25%;
   width: 50%;
-  background-color: #ddd; 
+  background-color: grey; 
 }
 
 .skills {
@@ -296,22 +315,23 @@ html{
 .oracle {width: 60%; background-color: #49243E;} 
 .sql {width: 50%; background-color: #704264;} 
 .mysql {width: 50%; background-color: #BB8493;} 
-.ap {width: 90%; background-color: #03AED2;}
-.ca {width: 95%; background-color: #68D2E8;}
-.fi {width: 65%; background-color: #54c9e0;}
+.ap {width: 90%; background-color: #05505f;}
+.ca {width: 95%; background-color: #0c7185;}
+.fi {width: 65%; background-color: #09a1bf;}
 
 .f{
     padding-top: 15%;
     padding-bottom: 15%;
     color: white;
-    background-color:#040D12;
+    background-color:black;
     font-family: monospace;
     
 }
 .f h1{
-    font-family: monospace;
+    font-family: sans-serif;
     padding-bottom: 5%;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 800;
     text-align: center;
     color: white;
 }
@@ -347,6 +367,7 @@ html{
     position: absolute;
     width: 100%;
     height: 100%;
+    border-radius: 5%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
@@ -354,13 +375,14 @@ html{
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     padding-top: 25%;
-    background-color: #183D3D;
+    background: linear-gradient(90deg, #605b6e 0%, #242426 100%);
+
     color: black;
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: #5C8374;
+    background: linear-gradient(90deg, #605b6e 0%, #242426 100%);
     color: white;
     transform: rotateY(180deg);
   }
@@ -466,10 +488,11 @@ html{
 .boxes1{
     width: 150px;
     height: 150px;
-    margin-right: 2%;
+    
     margin-bottom: 20%;
     border-radius: 50%;
-    background-color: white;
+    background: rgb(201,149,172);
+    background: radial-gradient(circle, rgba(201,149,172,1) 0%, rgba(25,25,28,1) 100%);
     transform: scale(1);
     animation: b 1s infinite alternate;
 }
@@ -478,14 +501,15 @@ html{
         transform: scale(0.5);
     }
     to {
-        transform: scale(0.7);
+        transform: scale(0.75);
     }
 }
 .boxes2{
     width: 75px;
     height: 75px;
     
-    background-color: white;
+    background: rgb(201,149,172);
+    background: radial-gradient(circle, rgba(201,149,172,1) 0%, rgba(25,25,28,1) 100%);
     margin-top: 10%;
     border-radius: 50%;
     transform: scale(1);
@@ -495,7 +519,8 @@ html{
     width: 75px;
     height: 75px;
     
-    background-color: white;
+    background: rgb(201,149,172);
+background: radial-gradient(circle, rgba(201,149,172,1) 0%, rgba(25,25,28,1) 100%);
     margin-top: 15%;
     border-radius: 50%;
     transform: scale(1);
