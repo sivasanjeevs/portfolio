@@ -480,6 +480,11 @@ html{
 /*.i4:hover{
     scale: 1.5;
 }*/
+.f h2{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
 .g{
     justify-content: space-between;
 }
