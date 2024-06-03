@@ -220,7 +220,7 @@ html{
 .box{
     width: 400px;
     height: 400px;
-    margin-right: 2%;
+    margin-right: 1%;
     background-color: white;
     border-radius: 50%;
     /*transform: scale(1);
