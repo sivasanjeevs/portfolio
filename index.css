@@ -466,7 +466,7 @@ html{
 .boxes1{
     width: 150px;
     height: 150px;
-    
+    margin-right: 2%;
     margin-bottom: 20%;
     border-radius: 50%;
     background-color: white;
