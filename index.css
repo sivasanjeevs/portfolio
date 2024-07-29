@@ -1,8 +1,31 @@
+
+.playwrite-at-uniquifier {
+  font-family: "Playwrite AT", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.noto-sans-uniquifier {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.teko-uniquifier {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 html{
     background-color: black;
     scroll-behavior: smooth;
     /*cursor: url("icons8-cursor-24.png"), auto;*/
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +42,12 @@ html{
     justify-content: center;
     
 }
-
+.d h1{
+    font-family: "Playwrite AT",cursive;
+    font-size: 75px;
+    padding-bottom: 10%;
+    color: black;
+}
 .b{
     z-index: 2;
     background-color: black
@@ -62,16 +90,7 @@ html{
     
     background-color: white;
 }
-.d h1{
-    padding-top: 15%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    text-align: center;
-    font-family: monospace;
-    font-size: 250px;
-    padding-bottom: 15%;
-    font-weight:900;
-}
+
 .c h1{
     display:flexbox;
 
@@ -80,7 +99,7 @@ html{
     margin-bottom: 0%;
     text-align: center;
     color:white;
-    font-family: sans-serif;
+    font-family: "Playwrite AT", cursive;
     font-size: 30px;
     font-weight:900;
 }
@@ -117,7 +136,7 @@ html{
     flex: 6;
 }
 .b h1{
-    font-family: monospace;
+    font-family: "Playwrite AT",cursive;
     display: flex;
     color: #fff;
 }
@@ -272,27 +291,27 @@ html{
   );
 }
 .e h2{
-    font-family: monospace;
+    font-family: "Teko", sans-serif;
     padding-top: 4%;
     padding-bottom: 2%;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
 }
 .e h1{
     padding-top: 5%;
     padding-bottom: 3%;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 50px;
+    font-family: "Playwrite AT", cursive;
     text-align: center;
     color: white;
-    font-weight: 800;
+    font-weight: 700;
 
 }
 .e p{
-    margin-left: 25%;
+    margin-left: 5%;
     text-align: left;
-    font-size: 10px;
-    font-family: monospace;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
     color: white;
 }
 * {box-sizing:border-box}
@@ -301,8 +320,9 @@ html{
 .container {
     
     margin-left: 25%;
-  width: 50%;
-  background-color: grey; 
+    width: 50%;
+    margin-bottom: 1.5%;
+    background-color: grey; 
 }
 
 .skills {
@@ -316,11 +336,11 @@ html{
 .C {width: 85%; background-color: #240750;}
 .oops {width: 85%; background-color: #344C64;}
 .py {width: 90%; background-color: #577B8D;}
-.R {width: 90%; background-color: #57A6A1;}
+.R {width: 90%; background-color: #57A6A1;}    
 .html {width: 90%; background-color: #10439F;} 
 .css {width: 90%; background-color: #874CCC;} 
-.js {width: 70%; background-color: #C65BCF;} 
-.react {width: 65%; background-color: #F27BBD;} 
+.js {width: 65%; background-color: #C65BCF;} 
+.react {width: 50%; background-color: #F27BBD;} 
 .oracle {width: 60%; background-color: #49243E;} 
 .sql {width: 50%; background-color: #704264;} 
 .mysql {width: 50%; background-color: #BB8493;} 
@@ -336,8 +356,12 @@ html{
     font-family: monospace;
     
 }
+.f a{
+    padding-top: 1%;
+    color: black;
+}
 .f h1{
-    font-family: sans-serif;
+    font-family: "Playwrite AT", cursive;
     padding-bottom: 5%;
     font-size: 30px;
     font-weight: 800;
@@ -345,8 +369,9 @@ html{
     color: white;
 }
 .f p{
-    font-family: monospace;
-    font-size: 13px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    text-align: center;
 }
 .flip-card {
     background-color: transparent;
@@ -481,9 +506,10 @@ html{
     scale: 1.5;
 }*/
 .f h2{
-    font-size: 20px;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    padding-top: 7%;
     text-align: center;
-    align-items: center;
 }
 .g{
     justify-content: space-between;
